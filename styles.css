@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: 1px underline solid black;
+}   
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin-top: 25px;
+    background: rgb(7, 136, 14);
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background: white;
+    color: rgb(7, 136, 14);
+}
+
+input {
+    margin-top: 25px;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 25px;
+    width: fit-content;
+}
